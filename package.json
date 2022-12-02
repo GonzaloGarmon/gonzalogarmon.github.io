@@ -62,7 +62,7 @@
   "exclude": "/(node_modules/(?!is-online)/(?!public-ip)|bower_components)/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
-  "homepage": "https://gonzalogarmon.github.io/proyectoFinal/",
+  "homepage": "https://gonzalogarmon.github.io/gonzalogarmon.github.io/",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@testing-library/jest-dom": "^5.16.5",
