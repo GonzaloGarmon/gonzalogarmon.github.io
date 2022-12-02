@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gonzalogarmon.github.io/static/css/main.fdb952f0.css",
+    "main.css": "/gonzalogarmon.github.io/static/css/main.340069b3.css",
     "main.js": "/gonzalogarmon.github.io/static/js/main.55db2054.js",
     "static/media/cv.jpg": "/gonzalogarmon.github.io/static/media/cv.71daff5f52bc0f9afaf2.jpg",
     "static/media/cvingles.jpg": "/gonzalogarmon.github.io/static/media/cvingles.8f4cc065665251d6a700.jpg",
@@ -8,11 +8,11 @@
     "static/media/gonza.jpg": "/gonzalogarmon.github.io/static/media/gonza.3469429f84ffa7d38d5f.jpg",
     "static/media/frontend1.png": "/gonzalogarmon.github.io/static/media/frontend1.9415f41ee9ef35b93fea.png",
     "index.html": "/gonzalogarmon.github.io/index.html",
-    "main.fdb952f0.css.map": "/gonzalogarmon.github.io/static/css/main.fdb952f0.css.map",
+    "main.340069b3.css.map": "/gonzalogarmon.github.io/static/css/main.340069b3.css.map",
     "main.55db2054.js.map": "/gonzalogarmon.github.io/static/js/main.55db2054.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdb952f0.css",
+    "static/css/main.340069b3.css",
     "static/js/main.55db2054.js"
   ]
 }
