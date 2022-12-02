@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
         <Routes>
         <Route path="/" element={<Inicio/>}> </Route>
-              <Route path="/proyectoFinal" element={<Inicio/>}> </Route>
+              <Route path="/gonzalogarmon.github.io" element={<Inicio/>}> </Route>
               <Route path="/contacto" element={<Contacto/>}> </Route>
               <Route path="/cv" element={<Curriculum/>} > </Route>
         <Route path="/" element={<Inicio/>}> </Route>
