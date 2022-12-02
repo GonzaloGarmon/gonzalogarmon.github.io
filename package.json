@@ -6,7 +6,7 @@
   "start": "node index.js",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
-  "homepage": "https://gonzalogarmon.github.io/proyecto/",
+  "homepage": "https://gonzalogarmon.github.io/proyectoFinal/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

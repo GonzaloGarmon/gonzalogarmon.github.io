@@ -13,7 +13,7 @@ function App() {
     <div className='mainDiv'>
     <BrowserRouter>
         <Routes>
-        <Route path="/proyecto" element={<Inicio/>}> </Route>
+        <Route path="/" element={<Inicio/>}> </Route>
               <Route path="/proyecto" element={<Inicio/>}> </Route>
               <Route path="/contacto" element={<Contacto/>}> </Route>
               <Route path="/cv" element={<Curriculum/>} > </Route>
