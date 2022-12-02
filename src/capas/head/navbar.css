@@ -1,0 +1,55 @@
+
+
+.menu{
+    border: 1px solid white;
+}
+.nav{
+    height: 0px;
+    font-family:sans-serif;
+    background-color:rgb(54, 54, 54);
+    padding-left: 600px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+.navs{
+    text-align: center;
+
+}
+
+.inicio{
+    background-color: rgba(54,54,54);
+    color: white;
+    height: 50px;
+    width: 230px;
+    font-family: sans-serif;
+    border-style:ridge;
+    border-bottom: none;  
+}
+
+.contacto{
+    background-color: rgba(54,54,54);
+    border-collapse: collapse;
+    font-family: sans-serif;
+    color: white;
+    height: 50px;
+    width: 230px;
+    border-style:ridge;
+    border-color: rgb(255,255,255);
+    border-bottom: none;
+}
+
+
+.curriculum{
+    background-color: rgba(54,54,54);
+    border-collapse: collapse;
+    font-family: sans-serif;
+    color: white;
+    height: 50px;
+    width: 230px;
+    border-style: ridge;
+    border-color: rgb(255,255,255);
+    
+}
+

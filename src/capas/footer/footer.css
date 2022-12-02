@@ -1,0 +1,103 @@
+.footer{
+  height: 400px;
+  display: grid;
+  padding-left: 500px;
+  padding-top: 50px;
+
+}
+
+.gridFooter{
+    display: grid;
+    width: 10vw;
+    height: 10vh;
+}
+
+
+.footers{
+
+    padding-top: 20px;
+    width: 450px;
+    border-top: 1px solid rgb(54,54,54);
+}
+
+.footers4{
+    padding-top: 20px;
+    height: 85px;
+    width: 450px;
+    border-bottom: 1px solid rgb(54,54,54);
+    border-top: 1px solid rgb(54,54,54);
+}
+
+.linked{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+}
+.links{
+    list-style-type: none;
+}
+
+.botonTop{
+    text-decoration: none;
+    animation: App-logo-spin;
+    padding-top: 100px;
+    width: 70vw;
+    text-align: right;
+    justify-content: right;
+}
+
+.botonVuelta{
+    text-decoration: none;
+    animation: App-logo-spin;
+    animation: App-logo-spin infinite 20s linear;
+    color:white;
+    background-color: rgb(54,54,54);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    justify-items: right;
+    align-items: right;
+    
+}
+
+.botonVuelta:hover{
+    text-decoration: none;
+    color: white;
+    animation: none;
+    transform: scale(1.2)
+}
+
+
+
+
+.up{
+    color: white;
+    text-decoration: none;
+    line-height: 10px;
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .li{
+    text-decoration: none;
+}
+.li1{
+    text-decoration: none;
+    color: black;
+}
+
+.li1:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.comentario{
+    padding-top: 150px;
+    text-align: center;
+}

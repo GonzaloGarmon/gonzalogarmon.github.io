@@ -1,0 +1,69 @@
+
+.proyectos{
+    display: grid;
+    width: 100vw;
+    height: 140vh;
+    row-gap: 50vh;
+    background-color: rgb(54, 54, 54);
+    grid-template-rows: 200px ;
+    grid-template-columns: 50vw 50vw ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-items: center;
+    align-content: center;
+    
+}
+
+
+.proyecto{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    
+
+}
+
+.lineaProyecto{
+    height: 80px;
+    border-bottom: 1px solid white;
+}   
+
+.proyecto1{
+    color: aliceblue;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.proyecto2{
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.carpinchos{
+    height: 417px;
+    width: 498px;
+}
+
+.frontend{
+    height: 417px;
+    width: 498px;
+}
+
+.flecha{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    padding-left: 240px;
+
+}
+
+.flecha:hover{
+    color: rgb(255,255,255);
+}

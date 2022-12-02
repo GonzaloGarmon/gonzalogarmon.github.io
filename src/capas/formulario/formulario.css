@@ -1,0 +1,56 @@
+
+
+.mainDivForm{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(54,54,54);
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+
+input{
+    
+        line-height: 10px;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+        border-radius: 8px;
+        border-style: ridge;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    margin-top: 30px;
+    background-color: rgb(54, 54, 54);
+    height: 800px;
+    width: 600px;
+    align-items:center;
+    justify-content: center;
+    border-style: ridge;
+    border-collapse: collapse;
+
+
+}
+
+
+.formulario{
+    border-radius: 100px;
+}
+
+
+.mensaje{
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+
+.enviar{
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+
+.flex_header{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+.gg{
+    font-weight: bold;
+}
+
+.contenedor{
+    
+    background-color: rgb(54, 54, 54);
+    border-left: 1px solid rgb(54, 54, 54);
+}

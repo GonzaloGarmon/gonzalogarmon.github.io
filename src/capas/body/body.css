@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@1,200&family=Bitter:wght@100;400;700&display=swap');
+
+
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.mainDivgrid{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    justify-content: stretch;
+    
+}
+
+.caja_foto{
+    display: flex;
+    border: 1px solid rgb(255, 248, 248);
+    border-top: 0ch;
+    border-left: 0ch;
+    align-items: right;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.caja_nombre{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 248, 248);
+    border-right: 0ch;
+    border-top: 0ch;
+    border-left: 0ch;
+    color: white;
+    padding-top: 150px;
+    padding-left: 100px;
+    align-items: left;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(54, 54, 54);
+    
+}
+
+.yo{
+    height: 40px;
+}
+.projecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255,255,255);
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(54, 54, 54);
+    border-bottom: 1px solid rgb(255, 248, 248);
+}
+
+
+
+
+.link1:hover{
+    animation-name: mymove;
+    animation: mymove 0.4s alternate;
+    background-color: white;
+    color: rgb(54, 54, 54);
+    
+}
+
+@keyframes mymove {
+    from{
+        background-color: rgb(54, 54, 54);}
+    to{
+        background-color: white;}
+}
+
+.link1 {
+    text-decoration: none;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    color:white ;
+    border: 2px solid white ;
+    border-radius: 15px;
+    background-color: rgb(54,54,54);
+    width: 200px;
+}
+
