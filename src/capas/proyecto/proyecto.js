@@ -15,7 +15,7 @@ const ConfigProyectos = () => {
                 </div> 
                  <img className="imagenes" src={Projecto} alt="projecto"></img>
                 </div> 
-                <div className="proyectito">
+        <div className="proyectito">
             <div className="lineaProyecto">
                 <h3 className="proyecto">Proyecto Front <a className="flechafront"href="https://github.com/pdepjm/2021-o-tpi-juego-e35ms">➤</a></h3>
                 </div> 

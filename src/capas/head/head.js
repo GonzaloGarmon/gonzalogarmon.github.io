@@ -1,6 +1,6 @@
 import React from "react";
 import '../head/head.css';
-import NavBarExample from "../head/navbar.js";
+import NavBarExample from "../navbarHead/navbar.js";
 
 
 const ConfigHead = () => {

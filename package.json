@@ -15,6 +15,7 @@
     ],
     "@babel/preset-react"
   ],
+  
   "plugins": [
     [
       [
@@ -72,6 +73,9 @@
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.3",
     "dom": "^0.0.3",
+    "postcss": "^8.4.19",
+    "postcss-calc": "^8.2.4",
+    "postcss-preset-env": "^7.8.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
@@ -79,6 +83,7 @@
     "react-router": "^6.4.4",
     "react-router-dom": "^6.4.4",
     "react-scripts": "^5.0.1",
+    "style-loader": "^3.3.1",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
@@ -117,6 +122,8 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^4.1.0",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "group-style-loader": "^1.0.5",
+    "postcss-loader": "^7.0.2"
   }
 }

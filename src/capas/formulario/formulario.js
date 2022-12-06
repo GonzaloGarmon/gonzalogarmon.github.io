@@ -2,7 +2,15 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import "../formulario/formulario.css";
 
+
+
+
+
+
+
 const Form = () => {
+
+
 const { register, formState:{errors}, watch ,handleSubmit } = useForm("");
 const onSubmit = (data) =>{ 
   console.log(data);
@@ -14,7 +22,7 @@ const onSubmit = (data) =>{
 <h2> Contactame </h2>
 <div className="nombre"> Nombre: {watch ('nombre')}</div>
 <div className="apellido"> Apellido: {watch ('apellido')}</div>
-<form className="formulario"onSubmit={handleSubmit(onSubmit)} >
+<form id="formulario"onSubmit={handleSubmit(onSubmit)} >
   <div>
     <label> Nombre </label>
     <input type="text" {...register('nombre', {
@@ -40,12 +48,15 @@ const onSubmit = (data) =>{
   </div>
   <div>
     <label> Email </label>
-    <input type="text" {...register('email', {
+    <input type="text" {...register('email',  {
+      required:true,
       pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
     })} />
 
 
-{errors.email?.type === 'pattern' && <p> El formato es incorrecto </p>
+{errors.email?.type === 'pattern' &&  <p> El formato es incorrecto </p>
+    }
+{errors.email?.type === 'required' && <p> El campo de email es obligatorio </p>
     }
   </div>
   <div>

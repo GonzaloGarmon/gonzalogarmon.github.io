@@ -1,23 +1,40 @@
 import React from "react";
 import ConfigFooter from '../capas/footer/footer';
-import ConfigHead from '../capas/head/head';
-import  Cv from '../componentes/cv.jpg';
-import  Cvingles from '../componentes/cvingles.jpg';
+import NavBarDefault from "../capas/navbarDefault/navbarDefault";
+import ConfigBodyCv from "../capas/bodyCv/configBodyCv";
+
+
+
+const ConfigHeadCv = ()  => {
+    return(
+        
+<div className="mainDivHead">
+    <head>
+        <title> Pagina Oficial </title>
+    </head>
+    <header className = "flex_header">
+        <div>
+            <h1 className="gg">GG</h1>
+        </div>
+        <div className="contenedor">
+          <NavBarDefault/>
+        </div>
+        
+    </header>
+</div>
+    )
+}
+
+
+
 
 const Curriculum = () => {
     return(
     <>
-        <ConfigHead/>
-        <section className="sos">
-            <div className="caja_1" >
-                <img src={Cv} alt="gonza" className="yop" />
-            </div>
-            <div className="caja_2" >
-                <img src={Cvingles} alt="gonza" className="yop" />
-            </div> 
-            </section>
+        <ConfigHeadCv/>
+        <ConfigBodyCv/>
         <ConfigFooter/>
-    </>
+    </>  
     )
 };
 
