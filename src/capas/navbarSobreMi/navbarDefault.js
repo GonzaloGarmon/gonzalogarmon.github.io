@@ -7,7 +7,7 @@ import '../navbarDefault/navbarDefault.css'
 const NavBarDefault = () => {
     return(
 
-        <div className='mainDivNav'>
+        <div className='mainDivNavSobreMi'>
     <Navbar className="nav" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href=""> </Navbar.Brand>

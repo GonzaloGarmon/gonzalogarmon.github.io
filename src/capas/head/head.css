@@ -2,7 +2,7 @@
 .flex_header{
     display: grid;
     height: 60px;
-    grid-template-columns: 20vw 80vw;
+    grid-template-columns: 19vw 79vw;
 
 }
 
@@ -15,7 +15,7 @@
 
 .contenedor{
     width: 50vw;
-    margin-left: 30.01vw;
+    margin-left: 31.01vw;
     background-color: rgb(54, 54, 54);
     border-left: 1px solid rgb(54, 54, 54);
 }

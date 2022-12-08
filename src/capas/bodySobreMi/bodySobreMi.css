@@ -1,11 +1,17 @@
 .todoSobreMi{
-    text-align: right;
+    display: flex;
+    text-align: center;
     color: white;
-    
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 70px;
+    margin-right: 190px;
+    background-color: rgb(0,0,0);
     
 }
 
 .contenedorHobbies{
+    
     display: grid;
     grid-template-columns: 20vw  ;
     background-color: rgb(54,54,54);
@@ -14,10 +20,17 @@
     padding-left: 10%;
     padding-top: 4%;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
+    border-top: 1px solid white;
+   
 }
-
-
+.flecha{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.botones{
+    display: flex;
+}
 
 
 
@@ -38,4 +51,8 @@
     border-radius: 100px;
     height: 100px;
     width: 100px;
+}
+
+.textoSobreMi{
+    font-weight: bold;
 }
