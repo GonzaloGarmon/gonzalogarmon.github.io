@@ -13,7 +13,7 @@
 
 
 input{
-    
+        font-weight: bold;
         line-height: 10px;
         width: 100%;
         padding: 12px 20px;
@@ -22,6 +22,10 @@ input{
         box-sizing: border-box;
         border-radius: 8px;
         border-style: ridge;
+    
+}
+label{
+    font-family: sans-serif;
 }
 
 .forms{
@@ -48,10 +52,16 @@ input{
 
 .mensaje{
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 
-.enviar{
+#enviar{
     font-weight: bold;
+    width: 250px;
+    margin-left: 25%;
+}
+.campo{
+    font-weight: 200;
+
 }

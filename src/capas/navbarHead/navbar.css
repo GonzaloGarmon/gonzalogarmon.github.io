@@ -16,7 +16,7 @@
     margin-top: 30px;
     display: grid;
     text-align: center;
-    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-columns: 11vw 11vw 11vw 11vw;
     font-size: large;
     width: max-content;
     width: 45vw;
@@ -30,12 +30,7 @@
 
 
 .navs.fixed{
-    grid-template-columns: 6vw 7vw 7vw;
-    background-color: rgb(54,54,54);
-    border: 0px;
-    width: 0px;
-    text-align: left;
-    position: fixed;
+    position: relative;
     transition: .3s ease-in-out; 
 }
 
@@ -53,6 +48,11 @@
     color: rgb(255,255,255);
 }
 .curriculum{
+    font-family:sans-serif;
+    color: rgb(255,255,255);
+}
+
+.sobreMi{
     font-family:sans-serif;
     color: rgb(255,255,255);
 }

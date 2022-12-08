@@ -29,6 +29,7 @@ function NavBarExample ()  {
                 <Nav.Link className='inicio' href="/">Inicio</Nav.Link>
                 <Nav.Link className='contacto'href="/contacto">Contacto</Nav.Link>
                 <Nav.Link className='curriculum'href="/cv">Curriculum</Nav.Link>
+                <Nav.Link className='sobreMi'href="/sobreMi">Sobre Mi</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

@@ -1,28 +1,29 @@
 
-.gridFooter{
-    display: grid;
-    grid-template-columns: 0vw 0vw;
-    justify-content: left;
-    
-}
 
 .footer{
-  height: 400px;
   display: grid;
-  padding-left: 500px;
-  padding-top: 50px;
+  height: 500px;
+  grid-template-columns: 50vw 50vw;
+justify-content: center;
+align-items: center;
 
 }
+.todasAtenciones{
+    margin-left: 400px;
+}
 
+.atencion{
+    margin-bottom: 20px;
+}
 
-.footers{
-
+.atenciones{
+    height: 60px;
     padding-top: 20px;
     width: 450px;
     border-top: 1px solid rgb(54,54,54);
 }
 
-.footers4{
+.atenciones1{
     display: flex;
     padding-top: 20px;
     height: 85px;
@@ -40,18 +41,12 @@
     text-align: center;
     margin-right: 10px;
 }
-.links{
-    list-style-type: none;
-}
+
 
 .botonTop{
+    margin-right: 600px;
     text-decoration: none;
-    margin-top: 50px;
-    margin-right: 50px;
     animation: App-logo-spin;
-    padding-top: 120px;
-    padding-left: 120px;
-    width: 70vw;
     text-align: right;
     justify-content: right;
 }
@@ -97,9 +92,7 @@
       transform: rotate(360deg);
     }
   }
-  .li{
-    text-decoration: none;
-}
+
 .li1{
     text-decoration: none;
     color: black;

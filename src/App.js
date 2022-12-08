@@ -5,6 +5,7 @@ import { Route, Routes} from "react-router-dom";
 import Inicio from './componentes/inicio';
 import Contacto from './componentes/contacto';
 import Curriculum from './componentes/cv';
+import SobreMi from './componentes/sobreMi';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
               <Route path="/gonzalogarmon.github.io" element={<Inicio/>}> </Route>
               <Route path="/contacto" element={<Contacto/>}> </Route>
               <Route path="/cv" element={<Curriculum/>} > </Route>
+              <Route path="/sobreMi" element={<SobreMi/>} > </Route>
         <Route path="/" element={<Inicio/>}> </Route>
         </Routes>
     </BrowserRouter>

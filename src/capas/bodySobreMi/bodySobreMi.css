@@ -1,0 +1,41 @@
+.todoSobreMi{
+    text-align: right;
+    color: white;
+    
+    
+}
+
+.contenedorHobbies{
+    display: grid;
+    grid-template-columns: 20vw  ;
+    background-color: rgb(54,54,54);
+    height: 100vh;
+    width: 100vw;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+.trabajoActual{
+    border-radius: 100px;
+    background-color: rgb(141, 48, 48);
+    height: 100px;
+    width: 100px;
+}
+.hobbie{
+    border-radius: 100px;
+    background-color: rgb(225, 228, 34);
+    height: 100px;
+    width: 100px;
+}
+.pocoDeMi{
+    background-color: rgb(24, 196, 78);
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}

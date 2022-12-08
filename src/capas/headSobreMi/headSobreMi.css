@@ -1,0 +1,23 @@
+.mainSobreMi{
+    height: 50px;
+}
+
+
+
+.navbarSobreMi{
+
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+}
+
+.contenedorNavBar{
+    background-color: rgb(54, 54, 54);
+}
+
+.ggSobreMi{
+    font-weight: bold;
+    height: 50px;
+    text-align: right;
+    margin-right: 10px;
+
+}
