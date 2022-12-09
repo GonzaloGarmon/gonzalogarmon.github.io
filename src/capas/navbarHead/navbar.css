@@ -30,6 +30,7 @@
 
 
 .navs.fixed{
+    
     position: relative;
     transition: .3s ease-in-out; 
 }
@@ -55,4 +56,50 @@
 .sobreMi{
     font-family:sans-serif;
     color: rgb(255,255,255);
+}
+
+
+
+@media only screen and (max-width:800px) {
+
+    .navs{
+        display: inline-block;
+        height: 200px;
+        width: 300px;
+        margin-right: 100px;
+    }
+    
+}
+
+@media only screen and (max-width:644px) {
+
+    .navs{
+        display: inline-block;
+        height: 200px;
+        width: 250px;
+        margin-right: 100px;
+    }
+    
+}
+
+
+@media only screen and (max-width:570px) {
+
+    .navs{
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        margin-right: 100px;
+    }
+    
+}
+@media only screen and (max-width:436px) {
+
+    .navs{
+        display: inline-block;
+        height: 175px;
+        width: 140px;
+        margin-right: 100px;
+    }
+    
 }

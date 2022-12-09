@@ -2,7 +2,6 @@
     display: grid;
     width: 100vw;
     height: 120vh;
-   
     background-color:rgb(54, 54, 54);
     grid-template-rows: 200px ;
     grid-template-columns: 50vw 50vw ;
@@ -26,4 +25,162 @@
     border-radius: 15px;
     box-shadow: 10px 10px 5px rgb(0,0,0);
     
+}
+
+@media only screen and (max-width:1450px){
+    .cvs1{
+        height: 750px;
+        margin-right: 10%;
+    }
+    .cvs2{
+        height: 750px;
+        margin-right: 10%; 
+    }
+}    
+
+@media only screen and (max-width:1280px){
+    .cvs1{
+        height: 700px;
+    }
+    .cvs2{
+        height: 700px;
+    }
+    
+}
+
+@media only screen and (max-width:1040px){
+    
+    .curriculums{
+        display: inline-block;
+        padding-left: 25%;
+        height: 180vh;
+    }
+    
+    .cvs1{
+        height: 700px;
+    }
+    .cvs2{
+        height: 700px;
+    }
+    
+}
+
+@media only screen and (max-width:820px){
+    
+    .curriculums{
+        padding-left: 20%;
+    }
+    .cvs1{
+
+        height: 700px;
+        width: 500px;
+    }
+    .cvs2{
+        width: 500px;
+        height: 700px;
+    }
+    
+}
+
+
+@media only screen and (max-width:700px){
+    
+    .curriculums{
+        padding-left: 10%;
+    }
+    .cvs1{
+
+        height: 700px;
+        width: 500px;
+    }
+    .cvs2{
+        width: 500px;
+        height: 700px;
+    }
+    
+}
+
+@media only screen and (max-width:620px){
+    
+    .curriculums{
+        padding-left: 15%;
+    }
+    .cvs1{
+
+        height: 600px;
+        width: 400px;
+    }
+    .cvs2{
+        height: 600px;
+        width: 400px;
+    }
+    
+}
+
+@media only screen and (max-width:525px){
+    
+    .curriculums{
+        padding-left: 5%;
+    }
+    .cvs1{
+
+        height: 600px;
+        width: 400px;
+    }
+    .cvs2{
+        height: 600px;
+        width: 400px;
+    }
+    
+}
+
+
+@media only screen and (max-width:470px){
+    
+    .curriculums{
+        padding-left: 5%;
+    }
+    .cvs1{
+
+        height: 550px;
+        width: 350px;
+    }
+    .cvs2{
+        height: 550px;
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width:410px){
+    
+    .curriculums{
+        padding-left: 5%;
+    }
+    .cvs1{
+
+        height: 500px;
+        width: 300px;
+    }
+    .cvs2{
+        height: 500px;
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width:355px){
+    
+    .curriculums{
+        padding-left: 3%;
+    }
+    .cvs1{
+
+        height: 450px;
+        width: 275px;
+    }
+    .cvs2{
+        height: 450px;
+        width: 275px;
+    }
 }

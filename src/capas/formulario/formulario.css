@@ -4,7 +4,7 @@
     display: flex;
     margin-bottom: 20px;
     width: 100vw;
-    height: 90vh;
+    height: 120vh;
     background-color: rgb(54,54,54);
     justify-content: center;
     align-content: center;
@@ -13,6 +13,7 @@
 
 
 input{
+    height: 100%;
         font-weight: bold;
         line-height: 10px;
         width: 100%;
@@ -59,9 +60,153 @@ label{
 #enviar{
     font-weight: bold;
     width: 250px;
+    height: 40px;
     margin-left: 25%;
 }
 .campo{
     font-weight: 200;
 
+}
+
+
+@media only screen and (max-width:1280px){
+    .forms{
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .forms{
+        height: 90%;
+    }
+
+    .label{
+        height: 60%;
+
+    }
+
+    .inputs1{
+        height: 10px;
+    }
+    .mensaje{
+        height: 90px;
+    }
+}
+
+
+@media only screen and (max-width:630px){
+    .forms{
+        height: 80%;
+        width: 95%;
+    }
+
+    .label{
+        height: 60%;
+
+    }
+
+    .inputs1{
+        height: 10px;
+        width: 100%;
+    }
+    .mensaje{
+        height: 90px;
+    }
+}
+
+
+@media only screen and (max-width:630px){
+    .forms{
+        height: 80%;
+        width: 95%;
+    }
+
+    .label{
+        height: 60%;
+
+    }
+
+    .inputs1{
+        height: 10px;
+        width: 95%;
+    }
+.mensaje{
+     width: 95%;
+     padding-left: 30%;
+}
+#enviar{
+    margin-left: 20%;
+}
+   
+}
+
+@media only screen and (max-width:490px){
+    .forms{
+        height: 80%;
+        width: 95%;
+    }
+
+    .label{
+        height: 60%;
+        margin-left: 5%;
+
+    }
+
+    .campo{
+        margin-left: 5%;
+    }
+
+    .inputs1{
+        height: 10px;
+        width: 92%;
+        margin-left: 5%;
+    }
+.mensaje{
+     width: 92%;
+     margin-left: 5%;
+}
+#enviar{
+    margin-left: 20%;
+}
+   
+}
+
+@media only screen and (max-width:400px){
+    .forms{
+        height: 90%;
+        width: 95%;
+    }
+
+    
+
+    .label{
+        height: 60%;
+        margin-left: 10%;
+
+    }
+
+    .campo{
+        margin-left: 10%;
+    }
+
+    .inputs1{
+        height: 10px;
+        width: 80%;
+        margin-left: 10%;
+    }
+.mensaje{
+     width: 80%;
+     margin-left: 10%;
+}
+#enviar{
+    margin-left: 10%;
+}
+   
+}
+
+
+@media only screen and (max-width:360){
+    #enviar{
+        width: 100px;
+    }
 }

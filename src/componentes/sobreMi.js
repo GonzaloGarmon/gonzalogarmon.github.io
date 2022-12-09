@@ -1,7 +1,7 @@
 
 import ConfigFooter from '../capas/footer/footer';
 import React from 'react';
-import ConfigHeadSobreMi from '../capas/headSobreMi/headSobreMi';
+import ConfigHead from '../capas/head/head';
 import ConfigBodySobreMi from '../capas/bodySobreMi/bodySobreMi';
 
 
@@ -9,7 +9,7 @@ import ConfigBodySobreMi from '../capas/bodySobreMi/bodySobreMi';
 const SobreMi = () =>{
     return(
     <>
-    <ConfigHeadSobreMi/>
+    <ConfigHead/>
     <ConfigBodySobreMi/>
         <ConfigFooter/>   
     </>

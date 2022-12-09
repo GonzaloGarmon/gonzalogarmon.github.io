@@ -1,15 +1,16 @@
 
 
+
 .footer{
-  display: grid;
-  height: 500px;
-  grid-template-columns: 50vw 50vw;
+display: grid;
+height: 500px;
+grid-template-columns: 50vw 50vw;
 justify-content: center;
 align-items: center;
 
 }
 .todasAtenciones{
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .atencion{
@@ -106,4 +107,139 @@ align-items: center;
 .comentario{
     padding-top: 20px;
     text-align: center;
+
+}
+
+@media only screen and (max-width:1610px){
+    .botonVuelta{
+        margin-left: 200px;
+
+    }
+    .atencion{
+
+        width: 500px;
+        
+     
+    }
+}
+
+
+@media only screen and (max-width:1190px){
+    .footer{
+        display: block;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .atencion{
+       
+        font-size: 25px;
+        width: 400px;
+     
+    }
+    .atenciones{
+        font-size: 20px;
+        
+    }
+    .atenciones1{
+        font-size: 20px;
+    }
+
+    .botonTop{
+        padding-left: 250px;
+        padding-top: 40px;
+            
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .footer{
+        width: 100vw;
+          
+    }
+}
+
+@media only screen and (max-width:780px){
+    .todasAtenciones{
+        margin-left: 150px;
+    }
+
+    .botonTop{
+       padding-left: 20%;
+    }
+}
+
+@media only screen and (max-width:644px){
+    .todasAtenciones{
+        margin-left: 90px;
+    }
+
+    .botonTop{
+       padding-left: 10px;
+    }
+}
+
+
+@media only screen and (max-width:580px){
+ 
+    .todasAtenciones{
+        margin-left: 120px;
+    
+    }
+    .atenciones{
+        width: 300px;
+    }
+    .atenciones1{
+        width: 300px;
+    }
+
+    .botonTop{
+       padding-left: 0%;
+       width: 100px;
+    }
+}
+
+@media only screen and (max-width:520px){
+ 
+
+    .atencion{
+        width: 300px;
+
+    }
+    .botonTop{
+        padding-left: 0%;
+       
+     }
+}
+
+
+@media only screen and (max-width:420px){
+ 
+
+
+    .todasAtenciones{
+        margin-left:  20%;
+    }
+    .atenciones{
+        font-size: 15px;
+        width: 200px;
+    }
+    .atenciones1{
+        width: 200px;
+        font-size: 15px;
+
+    }
+    .linked{
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .botonVuelta{
+       margin-left: 100%;
+    }
+
+    .atencion{
+        width: 150px;
+        font-size: 20px;
+    }
 }

@@ -17,7 +17,7 @@ const ConfigProyectos = () => {
                 </div> 
         <div className="proyectito">
             <div className="lineaProyecto">
-                <h3 className="proyecto">Proyecto Front <a className="flechafront"href="https://github.com/pdepjm/2021-o-tpi-juego-e35ms">➤</a></h3>
+                <h3 className="proyecto">Proyecto Front <a className="flechafront"href="https://github.com/GonzaloGarmon/gonzalogarmon.github.io">➤</a></h3>
                 </div> 
                  <img className="imagenes" src={Frontend} alt="projecto"></img>
                 </div> 

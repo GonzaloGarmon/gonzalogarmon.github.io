@@ -2,11 +2,23 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import "../formulario/formulario.css";
 import { useState } from "react";
-
+import Swal from 'sweetalert2';
 
 
 const Formulario = () => {
 
+  const RespuestaGuardada = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  })
+  
   
 
 const { register,watch, formState:{errors},handleSubmit } = useForm("");
@@ -22,7 +34,10 @@ const handleSubmitForm = (data,event) =>{
   console.log(data);
   
   event.preventDefault(); 
-  alert('Respuesta Guardada');
+  RespuestaGuardada.fire({
+    icon: 'success',
+    title: 'Respuesta Guardada'
+})
 
   setUsername('');
   setSurname('');
@@ -40,9 +55,9 @@ const handleSubmitForm = (data,event) =>{
 <div className="nombre1" > Nombre: {watch ('nombre')}</div>
 <div className="apellido1" > Apellido: {watch ('apellido')} </div>
 <form id="formulario" onSubmit={handleSubmit(handleSubmitForm)} >
-  <div>
-    <label> Nombre </label>
-    <input type="text" {...register('nombre', {
+  <div >
+    <label className="label"> Nombre </label>
+    <input className="inputs1" type="text" {...register('nombre', {
       required:true,
       maxLength:10
     })} onChange={event => setUsername(event.target.value)} value={username} />
@@ -53,17 +68,17 @@ const handleSubmitForm = (data,event) =>{
 
   </div>
   <div>
-    <label> Apellido </label>
-    <input type="text"  {...register('apellido',{ required:true
+    <label className="label"> Apellido </label>
+    <input className="inputs1" type="text"  {...register('apellido',{ required:true
     
     })} onChange={event => setSurname(event.target.value)} value={surname} />
 
     {errors.apellido?.type === 'required' && <p className="campo"> El campo apellido es obligatorio </p>
     }
   </div>
-  <div>
-    <label> Email </label>
-    <input  type="text"  {...register('email',  {
+  <div >
+    <label className="label"> Email </label>
+    <input className="inputs1"  type="text"  {...register('email',  {
       required:true,
       pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
     })} onChange={event => setEmail(event.target.value)} value={email} />
@@ -77,7 +92,7 @@ const handleSubmitForm = (data,event) =>{
   <div>
     
   <div className="mensaje1">
-    <label> Mejora mi pagina o deja algun comentario </label>
+    <label className="label"> Mejora mi pagina o deja algun comentario </label>
     <input  className="mensaje"  {...register('mensaje')} onChange={event => setComment(event.target.value)} value={comment} />
 
 

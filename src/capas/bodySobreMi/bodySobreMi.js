@@ -14,17 +14,11 @@ const mostrarAlerta=()=>{
         width: 1000,
         padding: '5rem',
         position:'center',
-        color: 'rgb(255,255,255)',
-        background: 'url(../bodySobreMi/byv.png',
+        color: 'rgb(0,0,0)',
         imageUrl:'https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2AQIFBNOAZBL7PPEM32SEROJ24.jpg',
         showCloseButton: true,
-        theme:'dark',
         showConfirmButton:false,
         backdrop: `
-          
-          url (../bodySobreMi/basquet.png)
-          left top
-          no-repeat
         `
       }) 
       
@@ -39,14 +33,10 @@ const mostrarAlerta2=()=>{
         text: 'DATO: juego de central en voley, en una parroquia de barrio y deje de jugar basquet hace un tiempo :( pero jugaba de Base o Alero',
         width: 1000,
         padding: '5rem',
-        
-
         grow:'row',
         position:'center',
         color: 'rgb(255,255,255)',
         background: 'rgb(54,54,54)',
-        
-        showCloseButton: true,
     })
 }
 
@@ -60,8 +50,14 @@ const mostrarAlerta3=()=>{
         width: 1000,
         padding: '5rem',
         position:'center',
-        background: 'rgb(54,54,54)',
+        background: 'rgb(0,0,0)',
+        imageUrl: 'https://i.ytimg.com/vi/lAGNEGWJ3Ic/maxresdefault.jpg',     
+        html: 
+        'Para mas informacion, podes ingresar a este, ' +
+        '<a href="https://www.hospitalaleman.org.ar/?gclid=CjwKCAiAs8acBhA1EiwAgRFdw3PmkTKr1Ol1QNsdPElITYCzUwhOnEILNRV7PLL8_TNLjgJckLEm-xoCV8sQAvD_BwE"><b>link</b></a>',   
+   
         showCloseButton: true,
+        showConfirmButton: false,
         color: 'rgb(255,255,255)',
         backdrop: ``,
       }) 
@@ -79,13 +75,13 @@ return(
         <div className='contenedorHobbies'>
         <h1 className="todoSobreMi"> Todo Sobre Mi</h1>
              <div className="botones"> 
-                <button onClick={()=>mostrarAlerta()} className="trabajoActual"> <h4 className="textoSobreMi"> Cosas Generales </h4>   </button>  <h1 className="flecha"> ⇗</h1>
+                <button onClick={()=>mostrarAlerta()} className="trabajoActual"> <h4 className="textoSobreMi1"> Cosas Generales </h4>   </button>  <h1 className="flechitas"> ⇗</h1>
             </div>
            <div className="botones">
-                <button onClick={()=>mostrarAlerta2()} className="hobbie"> <h4 className="textoSobreMi"> Hobbies </h4>   </button> <h1 className="flecha"> ⇗</h1>
+                <button onClick={()=>mostrarAlerta2()} className="hobbie"> <h4 className="textoSobreMi2"> Hobbies </h4>   </button> <h1 className="flechitas"> ⇗</h1>
            </div>
             <div className="botones">
-                <button onClick={()=>mostrarAlerta3()} className="pocoDeMi"> <h4 className="textoSobreMi"> Trabajo Actual </h4>   </button > <h1 className="flecha"> ⇗</h1>
+                <button onClick={()=>mostrarAlerta3()} className="pocoDeMi"> <h4 className="textoSobreMi3"> Trabajo Actual </h4>   </button > <h1 className="flechitas"> ⇗</h1>
             </div>
         </div>
     </div>
