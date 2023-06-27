@@ -70,9 +70,13 @@
     "@testing-library/user-event": "^13.5.0",
     "add": "^2.0.6",
     "await": "^0.2.6",
+    "axios": "^1.4.0",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
     "dom": "^0.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
     "postcss": "^8.4.19",
     "postcss-calc": "^8.2.4",
     "postcss-preset-env": "^7.8.3",
@@ -86,6 +90,8 @@
     "style-loader": "^3.3.1",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.6.15",
+    "uniqid": "^5.4.0",
+    "uniquid": "^1.1.4",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
@@ -127,5 +133,16 @@
     "gh-pages": "^4.0.0",
     "group-style-loader": "^1.0.5",
     "postcss-loader": "^7.0.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloGarmon/gonzalogarmon.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GonzaloGarmon/gonzalogarmon.github.io/issues"
+  }  
 }

@@ -5,14 +5,14 @@ import ConfigHeadModificado from '../capas/headModificado/headModificado';
 
 
 
-
 const Contacto = () =>  {
+
     return(
+
     <div>
         <ConfigHeadModificado/>        
 
         <Form/>
-            
         <ConfigFooter/>
     </div>
     )

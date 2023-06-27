@@ -210,3 +210,12 @@ label{
         width: 100px;
     }
 }
+
+h4{
+    background-color: rgb(54,54,54);
+    color: black;
+}
+
+.listaDeUsuariosDiv{
+    background-color: rgb(54,54,54);
+}

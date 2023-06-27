@@ -1,0 +1,67 @@
+.containerListado{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 5%;
+    
+}
+.listitaUsuarios{
+    margin: 1%;
+    margin-bottom: 1%;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid white;
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-style: ridge;
+    color: aliceblue;
+    margin-right: 45%;
+    margin-left: 45%;
+   
+        
+}
+
+ul{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    background-color: black;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+li{
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: black;
+    align-items:center;
+    justify-content: center;
+    
+}
+button{
+    margin-left: 19%;
+    margin-top: 5%;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    
+}
+
+
+#columnas{
+    border: 5px solid white;
+    margin: 1%;
+    margin-left: 37%;
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+        border-radius: 8px;
+        border-style: ridge;
+    margin-bottom: 10px;
+    width: 500px;
+    
+}
+

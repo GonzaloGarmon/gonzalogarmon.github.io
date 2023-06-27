@@ -6,6 +6,7 @@ import Inicio from './componentes/inicio';
 import Contacto from './componentes/contacto';
 import Curriculum from './componentes/cv';
 import SobreMi from './componentes/sobreMi';
+import EditarUsuario from './capas/usuarioIndividual/EditarUsuario';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <Route path="/contacto" element={<Contacto/>}> </Route>
               <Route path="/cv" element={<Curriculum/>} > </Route>
               <Route path="/sobreMi" element={<SobreMi/>} > </Route>
+              <Route path ="/contacto/editarusuario/:idusuario" element={<EditarUsuario/>}></Route>
         <Route path="/" element={<Inicio/>}> </Route>
         </Routes>
     </BrowserRouter>

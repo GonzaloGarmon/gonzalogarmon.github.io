@@ -1,11 +1,15 @@
 import React from "react";
-import { useForm } from "react-hook-form";
+import { useForm,  } from "react-hook-form";
 import "../formulario/formulario.css";
 import { useState } from "react";
 import Swal from 'sweetalert2';
-
+import axios from 'axios';
+import uniquid from 'uniqid';
+import ListaUsuarios from "../usuarioIndividual/ListaUsuarios";
 
 const Formulario = () => {
+
+
 
   const RespuestaGuardada = Swal.mixin({
     toast: true,
@@ -21,46 +25,63 @@ const Formulario = () => {
   
   
 
-const { register,watch, formState:{errors},handleSubmit } = useForm("");
-const [username, setUsername] = useState('');
-const [surname, setSurname] = useState('');
-const [email, setEmail] = useState('');
-const [comment, setComment] = useState('');
+const { register, formState:{errors},handleSubmit } = useForm("")
+const [nombre, setNombre] = useState('')
+const [apellido, setApellido] = useState('')
+const [email, setEmail] = useState('')
+const [comentario, setComentario] = useState('')
 
+function agregarUsuario(){
+  var usuario = {
+    nombre: nombre,
+    apellido: apellido,
+    email: email,
+    comentario: comentario,
+    idusuario: uniquid()
+  }
+
+  console.log(usuario)
+
+  axios.post('http://localhost:5000/api/usuario/agregarusuario', usuario)
+  .then(res => {
+
+    alert("Se agrego usuario")
+
+    // RespuestaGuardada.fire({
+    //   icon: 'success',
+    //   title: 'Respuesta Guardada'
+    // })
+    
+    // setNombre('')
+    // setApellido('')
+    // setEmail('')
+    // setComentario('')
+
+  })
+  .then(err => {console.log(err)})
+
+}
 
   
-const handleSubmitForm = (data,event) =>{ 
+// const handleSubmitForm = (event,data) =>{ 
   
-  console.log(data);
-  
-  event.preventDefault(); 
-  RespuestaGuardada.fire({
-    icon: 'success',
-    title: 'Respuesta Guardada'
-})
+//   event.preventDefault()
 
-  setUsername('');
-  setSurname('');
-  setEmail('')
-  setComment('')
-
-  };
-
+// }
 
 
   return (
-<div className="mainDivForm">
+<div className="listaDeUsuariosDiv">
+  <div className="mainDivForm">
 <div className="forms">
 <h2> Contactame </h2>
-<div className="nombre1" > Nombre: {watch ('nombre')}</div>
-<div className="apellido1" > Apellido: {watch ('apellido')} </div>
-<form id="formulario" onSubmit={handleSubmit(handleSubmitForm)} >
+<form id="formulario" >
   <div >
     <label className="label"> Nombre </label>
     <input className="inputs1" type="text" {...register('nombre', {
       required:true,
       maxLength:10
-    })} onChange={event => setUsername(event.target.value)} value={username} />
+    })} onChange={event => setNombre(event.target.value)} value={nombre} />
 
     {errors.nombre?.type === 'required' && <p className="campo"> El campo nombre es obligatorio </p>
     }
@@ -71,7 +92,7 @@ const handleSubmitForm = (data,event) =>{
     <label className="label"> Apellido </label>
     <input className="inputs1" type="text"  {...register('apellido',{ required:true
     
-    })} onChange={event => setSurname(event.target.value)} value={surname} />
+    })} onChange={event => setApellido(event.target.value)} value={apellido} />
 
     {errors.apellido?.type === 'required' && <p className="campo"> El campo apellido es obligatorio </p>
     }
@@ -92,24 +113,29 @@ const handleSubmitForm = (data,event) =>{
   <div>
     
   <div className="mensaje1">
-    <label className="label"> Mejora mi pagina o deja algun comentario </label>
-    <input  className="mensaje"  {...register('mensaje')} onChange={event => setComment(event.target.value)} value={comment} />
-
-
-
+    <label className="label"> Mejora mi pagina dejando algun comentario </label>
+    <input  className="mensaje"  {...register('mensaje')} onChange={event => setComentario(event.target.value)} value={comentario} />
 
   </div>
   </div>
-  <input type="submit"   value="Enviar" id="enviar"  />
+  <button id="enviar" onClick={agregarUsuario} > Enviar </button>
 </form>
 
+</div>
+
 
 
 </div>
-</div>
 
+<ListaUsuarios/>
+
+</div>
 
 );
 };
 
 export default Formulario;
+
+
+
+
