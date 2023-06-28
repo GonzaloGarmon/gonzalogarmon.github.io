@@ -11,7 +11,7 @@ function UsuarioIndividual({usuario}){
 
 
   function borrarusuario(idusuario){
-    axios.post("http://containers-us-west-186.railway.app:6983/borrarusuario", {idusuario: idusuario}).then(res =>{
+    axios.post("https://containers-us-west-186.railway.app:6983/borrarusuario", {idusuario: idusuario}).then(res =>{
 
     console.log(res.data)
     alert("Usuario Borrado")
