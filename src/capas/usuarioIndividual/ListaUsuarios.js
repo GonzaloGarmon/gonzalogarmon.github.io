@@ -27,8 +27,9 @@ const listausuarios = datausuarios.map( usuario =>{
 
     return(
 
-    <div>
+    <div id="divdeusuarios">
         <h4 className="listitaUsuarios"> Lista de Usuarios </h4>
+        <h3 id="espacio">espacio en blanco</h3>
         {listausuarios}
     </div>
   )

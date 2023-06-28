@@ -4,8 +4,16 @@
     padding-bottom: 5%;
     
 }
+
+
+#espacio{
+    background-color: rgb(54,54,54);
+    color: rgb(54,54,54);
+}
+
 .listitaUsuarios{
     margin: 1%;
+    
     margin-bottom: 1%;
     align-items:center;
     text-align: center;
@@ -19,7 +27,7 @@
     color: aliceblue;
     margin-right: 45%;
     margin-left: 45%;
-   
+    
         
 }
 
