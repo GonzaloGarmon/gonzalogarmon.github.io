@@ -9,7 +9,7 @@ function ListaUsuarios(){
 const[datausuarios, setdatausuario] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:5000/api/usuario/obtenerusuarios").then(res => {
+        axios.get("http://containers-us-west-186.railway.app:6983/api/usuario/obtenerusuarios").then(res => {
             console.log(res.data)
             setdatausuario(res.data)
         }).catch (err => {
@@ -29,7 +29,7 @@ const listausuarios = datausuarios.map( usuario =>{
 
     <div id="divdeusuarios">
         <h4 className="listitaUsuarios"> Lista de Usuarios </h4>
-        <h3 id="espacio">espacio en blanco</h3>
+        <h3 id="espacio">espacio en bla</h3>
         {listausuarios}
     </div>
   )

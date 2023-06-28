@@ -17,7 +17,7 @@ function EditarUsuario(){
     const [comentario, setComentario] = useState('')
 
     useEffect(()=>{
-        axios.post("http://localhost:5000/api/usuario/obtenerdatausuario", {idusuario: params.idusuario}).then(res =>{
+        axios.post("http://containers-us-west-186.railway.app:6983/api/usuario/obtenerdatausuario", {idusuario: params.idusuario}).then(res =>{
 
             console.log(res.data[0])
             const datausuario = res.data[0]
@@ -40,7 +40,7 @@ function EditarUsuario(){
         }
 
         //Aca volvemos a hacer la peticion con axios
-        axios.post("http://localhost:5000/api/usuario/actualizausuario", actualizausuario)
+        axios.post("http://containers-us-west-186.railway.app:6983/api/usuario/actualizausuario", actualizausuario)
         .then(res => {
 
             alert(JSON.stringify(actualizausuario));
