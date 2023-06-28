@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/gonzalogarmon.github.io/static/css/main.340069b3.css",
-    "main.js": "/gonzalogarmon.github.io/static/js/main.55db2054.js",
-    "static/media/cv.jpg": "/gonzalogarmon.github.io/static/media/cv.71daff5f52bc0f9afaf2.jpg",
-    "static/media/cvingles.jpg": "/gonzalogarmon.github.io/static/media/cvingles.8f4cc065665251d6a700.jpg",
-    "static/media/proyecto1.png": "/gonzalogarmon.github.io/static/media/proyecto1.ee7ae045e65d8da31a3f.png",
-    "static/media/gonza.jpg": "/gonzalogarmon.github.io/static/media/gonza.3469429f84ffa7d38d5f.jpg",
-    "static/media/frontend1.png": "/gonzalogarmon.github.io/static/media/frontend1.9415f41ee9ef35b93fea.png",
-    "index.html": "/gonzalogarmon.github.io/index.html",
-    "main.340069b3.css.map": "/gonzalogarmon.github.io/static/css/main.340069b3.css.map",
-    "main.55db2054.js.map": "/gonzalogarmon.github.io/static/js/main.55db2054.js.map"
+    "main.css": "/static/css/main.12e289fe.css",
+    "main.js": "/static/js/main.31d6553f.js",
+    "static/media/cv.png": "/static/media/cv.71daff5f52bc0f9afaf2.png",
+    "static/media/cvingles.png": "/static/media/cvingles.8f4cc065665251d6a700.png",
+    "static/media/proyecto1.png": "/static/media/proyecto1.ee7ae045e65d8da31a3f.png",
+    "static/media/gonza.jpg": "/static/media/gonza.3469429f84ffa7d38d5f.jpg",
+    "static/media/frontend1.png": "/static/media/frontend1.87b613a434c845ac1a41.png",
+    "static/media/proximamente.png": "/static/media/proximamente.b90becd56f15138fd73f.png",
+    "index.html": "/index.html",
+    "main.12e289fe.css.map": "/static/css/main.12e289fe.css.map",
+    "main.31d6553f.js.map": "/static/js/main.31d6553f.js.map"
   },
   "entrypoints": [
-    "static/css/main.340069b3.css",
-    "static/js/main.55db2054.js"
+    "static/css/main.12e289fe.css",
+    "static/js/main.31d6553f.js"
   ]
 }
