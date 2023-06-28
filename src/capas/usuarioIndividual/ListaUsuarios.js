@@ -9,7 +9,7 @@ function ListaUsuarios(){
 const[datausuarios, setdatausuario] = useState([])
 
     useEffect(() => {
-        axios.get("https://containers-us-west-186.railway.app:6983/api/usuario/obtenerusuarios").then(res => {
+        axios.get("http://localhost:6983/backend/usuario/obtenerusuarios").then(res => {
             console.log(res.data)
             setdatausuario(res.data)
         }).catch (err => {

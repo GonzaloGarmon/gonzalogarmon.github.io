@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 
+
 function UsuarioIndividual({usuario}){
 
 
 
 
   function borrarusuario(idusuario){
-    axios.post("https://containers-us-west-186.railway.app:6983/borrarusuario", {idusuario: idusuario}).then(res =>{
+    axios.post("http://localhost:6983/backend/usuario/borrarusuario", {idusuario: idusuario}).then(res =>{
 
     console.log(res.data)
     alert("Usuario Borrado")

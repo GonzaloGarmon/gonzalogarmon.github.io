@@ -62,7 +62,7 @@
   "exclude": "/(node_modules/(?!is-online)/(?!public-ip)|bower_components)/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
-  "homepage": "https://gonzalogarmon.github.io/",
+  "homepage": "https://github.com/GonzaloGarmon/proyecto.git",
   "dependencies": {
     "@babel/runtime": "^7.20.6",
     "@testing-library/jest-dom": "^5.16.5",
@@ -138,11 +138,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GonzaloGarmon/gonzalogarmon.github.io.git"
+    "url": "https://github.com/GonzaloGarmon/proyecto.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GonzaloGarmon/gonzalogarmon.github.io/issues"
+    "url": "https://github.com/GonzaloGarmon/proyecto/issues"
   }
 }

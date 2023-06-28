@@ -42,7 +42,7 @@ function agregarUsuario(){
 
   console.log(usuario)
 
-  axios.post('https://containers-us-west-186.railway.app:6983/api/usuario/agregarusuario', usuario)
+  axios.post("http://localhost:6983/backend/usuario/agregarusuario", usuario)
   .then(res => {
 
     alert("Se agrego usuario")

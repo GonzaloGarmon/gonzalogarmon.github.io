@@ -7,9 +7,13 @@ import ConfigHead from '../head/head'
 import ConfigFooter from '../footer/footer';
 import { Link } from "react-router-dom"
 
+
+
 function EditarUsuario(){
 
     const params = useParams()
+
+    
 
     const [nombre, setNombre] = useState('')
     const [apellido, setApellido] = useState('')
@@ -17,7 +21,7 @@ function EditarUsuario(){
     const [comentario, setComentario] = useState('')
 
     useEffect(()=>{
-        axios.post("https://containers-us-west-186.railway.app:6983/api/usuario/obtenerdatausuario", {idusuario: params.idusuario}).then(res =>{
+        axios.post("http://localhost:6983/backend/usuario/obtenerdatausuario", {idusuario: params.idusuario}).then(res =>{
 
             console.log(res.data[0])
             const datausuario = res.data[0]
@@ -40,7 +44,7 @@ function EditarUsuario(){
         }
 
         //Aca volvemos a hacer la peticion con axios
-        axios.post("https://containers-us-west-186.railway.app:6983/api/usuario/actualizausuario", actualizausuario)
+        axios.post("http://localhost:6983/backend/usuario/actualizausuario", actualizausuario)
         .then(res => {
 
             alert(JSON.stringify(actualizausuario));
