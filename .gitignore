@@ -1,0 +1,17 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+
+# Directorios
+/node_modules
+/dist
+
+# Archivos de configuración local
+.env
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# Dependencias y módulos
+/package-lock.json
+/yarn.lock
