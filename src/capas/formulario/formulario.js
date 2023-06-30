@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useForm,  } from "react-hook-form";
 import "../formulario/formulario.css";
 import { useState } from "react";
@@ -7,7 +6,7 @@ import Swal from 'sweetalert2';
 import axios from 'axios';
 import uniquid from 'uniqid';
 import ListaUsuarios from "../usuarioIndividual/ListaUsuarios";
-import e from "cors";
+
 
 const Formulario = () => {
 

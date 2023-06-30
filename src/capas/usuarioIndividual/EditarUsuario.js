@@ -59,7 +59,7 @@ function EditarUsuario(){
       <div  id="cont">
         
         <div >
-            <h2 > Editar Usuario</h2>
+            <h2 className="editarus" > Editar Usuario</h2>
             </div>
             <div id="contenedorprincipal">
             <div id="columnass">

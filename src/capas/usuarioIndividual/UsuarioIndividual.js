@@ -37,8 +37,8 @@ function UsuarioIndividual({usuario}){
             <li classname="list-group-item">{usuario.comentario}</li>
           </ul>
           
-          <Link to={`/contacto/editarusuario/${usuario.idusuario}`}><button >Editar</button></Link>
-          <Link to={`/contacto`}><button onClick={() => {borrarusuario(usuario.idusuario)} }>Borrar</button></Link>
+          <Link to={`/contacto/editarusuario/${usuario.idusuario}`}><button id="botonEdit"> Editar</button></Link>
+          <Link to={`/contacto`}><button id="botonBorrar" onClick={() => {borrarusuario(usuario.idusuario)} }>Borrar</button></Link>
           <hr className="mt-4"></hr>
         </div>
       </div>

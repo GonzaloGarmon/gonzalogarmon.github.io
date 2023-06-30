@@ -53,8 +53,13 @@ button{
     margin-left: 19%;
     margin-top: 5%;
     font-weight: bold;
+    font-weight: 1500;
+    font-weight: bolder;
     width: 100px;
     height: 40px;
+    border: 2px solid white ;
+    border-radius: 15px;
+    
     
 }
 
@@ -73,3 +78,10 @@ button{
     
 }
 
+#botonEdit{
+    background-color: yellow;
+}
+
+#botonBorrar{
+    background-color: red;
+}
