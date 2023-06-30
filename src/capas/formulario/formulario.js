@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useForm,  } from "react-hook-form";
 import "../formulario/formulario.css";
 import { useState } from "react";
@@ -6,6 +7,7 @@ import Swal from 'sweetalert2';
 import axios from 'axios';
 import uniquid from 'uniqid';
 import ListaUsuarios from "../usuarioIndividual/ListaUsuarios";
+import e from "cors";
 
 const Formulario = () => {
 
@@ -33,9 +35,9 @@ const [comentario, setComentario] = useState('')
 
 function agregarUsuario(){
   var usuario = {
+    email: email,
     nombre: nombre,
     apellido: apellido,
-    email: email,
     comentario: comentario,
     idusuario: uniquid()
   }
@@ -59,8 +61,16 @@ function agregarUsuario(){
 
   })
   .then(err => {console.log(err)})
+  axios.post("http://localhost:6983/backend/usuario/form", usuario)
+  .then(alert("Se mando mail"))
 
 }
+
+
+
+
+  
+
 
   
 // const handleSubmitForm = (event,data) =>{ 

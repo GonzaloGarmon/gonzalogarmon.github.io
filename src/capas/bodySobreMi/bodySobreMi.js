@@ -74,14 +74,14 @@ return(
     
         <div className='contenedorHobbies'>
         <h1 className="todoSobreMi"> Todo Sobre Mi</h1>
-             <div className="botones"> 
-                <button onClick={()=>mostrarAlerta()} className="trabajoActual"> <h4 className="textoSobreMi1"> Cosas Generales </h4>   </button>  <h1 className="flechitas"> ⇗</h1>
+             <div className="botoness"> 
+                <button onClick={()=>mostrarAlerta()} className="trabajoActual"> <h3 className="textoSobreMi1"> Cosas Generales </h3>   </button>  <h1 className="flechitas"> ⇗</h1>
             </div>
-           <div className="botones">
-                <button onClick={()=>mostrarAlerta2()} className="hobbie"> <h4 className="textoSobreMi2"> Hobbies </h4>   </button> <h1 className="flechitas"> ⇗</h1>
+           <div className="botoness">
+                <button onClick={()=>mostrarAlerta2()} className="hobbie"> <h3 className="textoSobreMi2"> Hobbies </h3>   </button> <h1 className="flechitas"> ⇗</h1>
            </div>
-            <div className="botones">
-                <button onClick={()=>mostrarAlerta3()} className="pocoDeMi"> <h4 className="textoSobreMi3"> Trabajo Actual </h4>   </button > <h1 className="flechitas"> ⇗</h1>
+            <div className="botoness">
+                <button onClick={()=>mostrarAlerta3()} className="pocoDeMi"> <h3 className="textoSobreMi3"> Trabajo Actual </h3>   </button > <h1 className="flechitas"> ⇗</h1>
             </div>
         </div>
     </div>

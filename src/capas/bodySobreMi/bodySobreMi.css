@@ -33,7 +33,7 @@
     border-color: rgb(255,255,255);
     color: rgb(255,255,255);
 }
-.botones{
+.botoness{
     display: flex;
     border-color: rgb(255,255,255);
     margin-left: 20px;
@@ -69,7 +69,7 @@
 
 .textoSobreMi1{
     font-weight: bold;
-
+   
 }
 
 .textoSobreMi2{
